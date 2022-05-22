@@ -1,6 +1,6 @@
 .App {
   text-align: left;
-  background: url(./background_01.jpg) no-repeat !important;
+  background: url(./background.png) no-repeat !important;
   background-size: cover !important; 
   padding-bottom:70px; 
   /* padding-left:30%; */

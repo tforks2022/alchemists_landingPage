@@ -47,7 +47,7 @@ const Topbar = () => {
          <Grid container>
           <Grid item xs={12} style={{ textAlign: 'left',marginLeft:'-40px',marginTop:'-35px' }}>
             <a
-              href="https://twitter.com/Midas__Finance"
+              href="https://twitter.com/OnePiece__Finance"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
@@ -55,7 +55,7 @@ const Topbar = () => {
               <img alt="twitter" src={TwitterImage} className={classes.img} />
             </a>
             
-            <a href="https://t.me/midas_finance" rel="noopener noreferrer" target="_blank" className={classes.link}>
+            <a href="https://t.me/onepiece_finance" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="telegram" src={TelegramImage} className={classes.img} />
             </a>
      {/*        <a
