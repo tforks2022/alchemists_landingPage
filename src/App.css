@@ -1,10 +1,57 @@
+.img{
+  background:none!important;
+}
+
 .App {
   text-align: left;
   background: url(./background.png) no-repeat !important;
-  background-size: cover !important; 
-  padding-bottom:70px; 
-  /* padding-left:30%; */
+  background-size: cover !important;
 }
+
+.App-title{
+  text-align: left;
+  margin-left:10%;
+  font-size: 5vh;
+  font-family:'SegoePrint';
+  color: #774230;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e4cd82, 0 0 40px #504111, 0 0 50px #504111, 0 0 60px #504111, 0 0 70px #504111;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #e4cd82, 0 0 50px #fff, 0 0 60px #504111, 0 0 70px #504111, 0 0 80px #504111;
+  }
+}
+
+.App-header {
+  text-align: left;
+  margin-left:10%;
+  font-size: 3vh;
+  font-family:'StylusBT';
+  color: #f4eacc;
+  margin-top: -2%;
+}
+
+.App-body {
+  padding-top:0px;  
+  padding-left:20%;
+}
+
+.App-logo {
+  text-align: left;
+  margin-left:10%;
+  height: 20vh;
+  pointer-events: none;
+  margin-bottom:-2%;
+  margin-top:2%;
+  display:inline-block;
+}
+
+
 .App-gitbooklogo{
   height:68px;
   /* width:68px; */
@@ -20,17 +67,8 @@
   margin-left:auto;
   margin-right:15%;
 }
-.App-logo {
-  height: 15vmin;
-  pointer-events: none;
-  text-align: right;
-  margin-left:auto;
-  margin-right:20%;
-  margin-bottom:-3%;
-  display:block;
-}
 .App-coinlogo{
-  height: 20vmin;
+  height: 30vmin;
   pointer-events: none;
   text-align: right;
   margin-right:auto;
@@ -38,11 +76,7 @@
   margin-top: 3%;
   display:inline-block;  
 }
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+
 .App-button:hover{
   opacity: 0.8!important;
 }
@@ -56,93 +90,11 @@
   font-size: calc(20px + 2vmin);  
   font-weight: 700;
 }
-.img{
-  background:none!important;
-}
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #332727;
-  
-}
-.App-body {
-  padding-top:0px;  
-  padding-left:20%;
-}
 
-.App-title{
-  text-align: right;
-  margin-right:30%;
-  padding-bottom:10%;
-}
-.App-comingsoon::before {
-/*   content: ">>>>>>>";
-  display: block;
-  background-color: rgba(236, 0, 140, 0.6);
-  width: 40px;
-  height: 1px;
-  position: absolute;
-  left: 0;
-  top: 50%; */
-}
-.countdown_day{
-  margin-bottom: -25px;
-  margin-left:-15px;
-  margin-top:-5px;
-  margin-right:20px;
-  display:inline-block;
-}
-.countdown_day_desc{
-  margin-bottom: -25px;
-  margin-left:-15px;
-  margin-top:-5px;  
-  display:inline-block;
-}
+
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.App-event{
-  width: 40vmin;
-  margin-top: 5%;
-  margin-bottom: -22px;
-  border-radius: 8px;
-  transition: box-shadow 300ms;
-  background-color: #d1ac49;
-  background:rgba(255, 255,255, 0.5);
-  display: block;
-}
-.App-eventbtn{
-  border-radius: 8px;
-  padding:0px 3px;
-  min-width: 145px;
-  min-height:5vh;
-  box-sizing: border-box;
-  font-weight: 800;
-  line-height: 1.25;
-  cursor: pointer;
-  vertical-align: middle;
-  margin-bottom:15px;
-  margin-top: -10px;
-  font-size: 1rem;
-  margin-left: 5px;
-  margin-right: 5px;
-  box-shadow: 0 0 0 1px #163772 inset,0 0 0 1px rgba(255, 255, 255, 0.15) inset,0 2px 0 0      #333797,0 2px 0 1px rgba(0, 0, 0, 0.4),0 2px 2px 1px rgba(0, 0, 0, 0.5);
-  background-color:#e7bf68;
-}
-.App-eventbtn:hover{
-  opacity: 0.8!important;
-}
+

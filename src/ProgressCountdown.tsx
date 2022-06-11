@@ -62,7 +62,7 @@ const StyledCountdown = styled.p`
    font-size: 46px;
   font-weight: 700;
   margin: -32px 0 46px 0;
-  color: #332727;
+  color: #d4af37;
   float:left;
 `;
 

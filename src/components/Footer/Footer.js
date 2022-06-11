@@ -42,14 +42,14 @@ const Footer = () => {
         <Grid container>
           <Grid item xs={6}>
             <Typography variant="body2" color="white" align="left">
-              {'Copyright ©'}
+              {'Copyright © '}
               <Link color="inherit" href="/">
-                OnePiece Finance
+                Alchemists Finance
               </Link>{' '}
               {new Date().getFullYear()}
             </Typography>
           </Grid>
-        {/*   <Grid item xs={6} style={{ textAlign: 'right' }}>
+          <Grid item xs={5} style={{ textAlign: 'right' }}>
             <a
               href="https://twitter.com/alternates_f"
               rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const Footer = () => {
             <a href="https://discord.com/invite/Qfj5jDu68U" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="discord" src={DiscordImage} className={classes.img} />
             </a>
-          </Grid> */}
+          </Grid>
         </Grid>
       </Container>
     </footer>
